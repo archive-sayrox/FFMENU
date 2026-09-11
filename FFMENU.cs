@@ -82,7 +82,7 @@ public class FFMENU : BasePlugin
     private static readonly HashSet<string> PrimaryClassnames = new(Primaries.Select(p => p.Classname));
     private static readonly HashSet<string> SecondaryClassnames = new(Secondaries.Select(s => s.Classname));
 
-    private static readonly string Prefix = $" {ChatColors.Default}[{ChatColors.Red}Haze Jailbreak{ChatColors.Default}]";
+    private static readonly string Prefix = $" {ChatColors.Default}[{ChatColors.Red} FFMENU {ChatColors.Default}]";
     private int _tickCounter = 0;
 
     private Dictionary<string, FFZoneData> _ffZones = new();
